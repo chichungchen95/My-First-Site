@@ -1,0 +1,158 @@
+a {
+text-decoration:none;
+color: #cfcfcf;
+text-shadow: 1px 1px 2px #5e5e5e;
+}
+a:hover {
+font-size:110%;
+color: #00ff44;
+text-shadow: 1px 1px 2px #000;
+}
+.big {
+    height: 20px;
+    padding-bottom: 5px;    
+}
+.big:hover {
+    height: 40px; 
+    width: 40px;
+}
+
+img{
+height: 10px;
+margin-right: 4px;
+}
+li{
+margin-bottom: 10px;
+margin-right: 4px;
+height: 20px;
+}
+
+h1{
+    color: #d3d1d1;
+}
+h3{
+    color: #eaeaea;
+}
+p{
+    color: #d3d1d1;
+}
+h5{
+    color: #d3d1d1;
+}
+del{
+    color: #d3d1d1;
+}
+h4 {
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+h1:hover {
+    color: #ffff;
+}
+h3:hover {
+    color: #ffff;
+}
+a:hover {
+    color: #ffff;
+}
+p:hover {
+    color: #ffff;
+}
+h4:hover {
+    color: #ffff;
+}
+h5:hover {
+    color: #ffff;
+}
+hr {
+    border-color: rgb(165, 238, 175)
+}
+del:hover {
+    color: #ffff;
+}
+
+#WRAPPER { /*用於超連結選單區塊表*/
+    margin:0 auto; /*水平置中*/
+    width:57%; /*寬度*/
+    height: 250px;
+    overflow:hidden; /*自動隱藏超出的文字或圖片*/
+    background-color:#99999976; /*背景色*/
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding-top:3%; padding-bottom:3%; padding-left: 3%; padding-right: 3%; /*填充*/
+} 
+
+#WRAPPER:hover { /*用於超連結選單區塊表*/
+    margin:0 auto; /*水平置中*/
+    width:57%; /*寬度*/
+    height: 250px;
+    overflow:hidden; /*自動隱藏超出的文字或圖片*/
+    background-color:#9999992d; /*背景色*/
+    border-radius: 10px;
+    text-shadow: 1px 1px 4px #000;
+    border: 4px solid #000000;
+    padding-top:20px; padding-bottom:20px; padding-left: 20px; padding-right: 20px; /*填充*/
+} 
+
+#BOX_A { /*超連結選單由左第一塊*/
+    width:254px; /*寬度*/
+    float:left; /*浮動區塊為左側*/
+    background-color:#ccfffc00; /*背景色*/
+    margin-left:5%; /*左側填充*/
+    border-radius: 6px;
+} 
+#BOX_B { /*超連結選單第二塊*/
+    width:254px; /*寬度*/
+    float:left; /*浮動區塊為左側*/
+    background-color:#ccffd800; /*背景色*/
+    margin-left:5%; /*左側填充*/
+    border-radius: 6px;
+}
+#BOX_C { /*超連結選單第三塊*/
+    width:254px; /*寬度*/
+    float:left; /*浮動區塊為左側*/
+    background-color:#ffccdb00; /*背景色*/
+    margin-left:5%; /*左側填充*/
+    border-radius: 6px;
+} 
+#BOX_A:hover { /*超連結選單由左第一塊*/
+    width:258px; /*寬度*/
+    float:left; /*浮動區塊為左側*/
+    background-color:#50b5f8b8; /*背景色*/
+    border: 1px solid #ffffff4f;
+    margin-left:5%; /*左側填充*/
+    border-radius: 10px;
+} 
+#BOX_B:hover { /*超連結選單由左第一塊*/
+    width:258px; /*寬度*/
+    float:left; /*浮動區塊為左側*/
+    background-color:rgba(96, 243, 96, 0.642); /*背景色*/
+    border: 1px solid #ffffff4f;
+    margin-left:5%; /*左側填充*/
+    border-radius: 10px;
+} 
+#BOX_C:hover { /*超連結選單由左第一塊*/
+    width:258px; /*寬度*/
+    float:left; /*浮動區塊為左側*/
+    background-color:rgba(253, 111, 243, 0.639); /*背景色*/
+    border: 1px solid #ffffff4f;
+    margin-left:5%; /*左側填充*/
+    border-radius: 10px;
+} 
+
+#oneself { 
+text-decoration:none;
+color: #090909;
+text-shadow: 1px 1px 2px #f6f0f0;
+}
+#oneself:hover {
+font-size:110%;
+color: #00ccff;
+text-shadow: 1px 1px 2px #000;
+}
+
+td {
+    padding-top: 20%;
+    color: #ffffffad;
+    text-align:center;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html><!--告訴瀏覽器我用html -->
+<html lang="zh-TW"><!--告訴瀏覽器使用zh-TW語言 -->
+    <head><!--開頭 -->
+        <meta charset="utf-8"> <!--使用UTF8編碼 -->
+        <title>首頁</title><!--網頁的標題 -->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.jpg" /><!--網頁的圖示 -->
+        <link rel="stylesheet" type="text/css" href="css/style.css"><!--加載外部css -->
+
+        <!--html內部CSS給JS專用(因為不知道為什麼放外部會出問題) -->
+        <style>
+            .pickaxe1{
+                background-image: url(assets/img/Enchanted_Wooden_Pickaxe.webp); /*背景圖*/
+                color: #6f6f6f00; /*文字顏色*/
+                height: 150px;/*高度*/
+                width: 150px;/*長度*/
+            }
+
+            .pickaxe2{
+                background-image: url(assets/img/Enchanted_Stone_Pickaxe.webp); /*背景圖*/
+                color: #6f6f6f00; /*文字顏色*/
+                height: 150px;/*高度*/
+                width: 150px;/*長度*/
+            }
+
+            .pickaxe3{
+                background-image: url(assets/img/Enchanted_Iron_Pickaxe.webp); /*背景圖*/
+                color: #6f6f6f00; /*文字顏色*/
+                height: 150px;/*高度*/
+                width: 150px;/*長度*/
+            }
+
+            .pickaxe4{
+                background-image: url(assets/img/Enchanted_Golden_Pickaxe.webp); /*背景圖*/
+                color: #6f6f6f00; /*文字顏色*/
+                height: 150px;/*高度*/
+                width: 150px;/*長度*/
+            }
+
+            .pickaxe5{
+                background-image: url(assets/img/Enchanted_Diamond_Pickaxe.webp); /*背景圖*/
+                color: #6f6f6f00; /*文字顏色*/
+                height: 150px;/*高度*/
+                width: 150px;/*長度*/
+            }
+            .pickaxe6{
+                background-image: url(assets/img/Enchanted_Netherite_Pickaxe.webp); /*背景圖*/
+                color: #6f6f6f00; /*文字顏色*/
+                height: 150px;/*高度*/
+                width: 150px;/*長度*/
+            }
+
+            .pickaxe1:hover {
+                color: rgba(255, 123, 0, 0.952); /*文字顏色*/
+                text-shadow: 1px 1px 2px #000;
+            }
+            .pickaxe2:hover {
+                color: rgba(144, 141, 141, 0.999); /*文字顏色*/
+                text-shadow: 1px 1px 2px #000;
+            }
+            .pickaxe3:hover {
+                color: #c0bdbd; /*文字顏色*/
+                text-shadow: 1px 1px 2px #000;
+            }
+            .pickaxe4:hover {
+                color: rgba(255, 221, 0, 0.99); /*文字顏色*/
+                text-shadow: 1px 1px 2px #000;
+            }
+            .pickaxe5:hover {
+                color: rgba(6, 209, 255, 0.997); /*文字顏色*/
+                text-shadow: 1px 1px 2px #000;
+            }
+            .pickaxe6:hover {
+                color: rgb(201, 5, 223); /*文字顏色*/
+                text-shadow: 1px 1px 2px #000;
+            }
+        </style><!--html內部CSS結尾 -->
+
+        <!--內部JS -->
+        <script>
+            function changeg1(){ /*函數changeg1*/
+                var pickaxeElement = document.getElementById("pickaxe"); /*取得此id傳回的參數*/
+        
+                if (pickaxeElement.classList.contains("pickaxe1")) { /*如果id傳回的參數為pickaxe1*/
+                    pickaxeElement.className = "pickaxe2";/*則切換為pickaxe2*/
+                    console.log("pickaxe2");
+                } else if (pickaxeElement.classList.contains("pickaxe2")) { /*如果id傳回的參數為pickaxe2*/
+                    pickaxeElement.className = "pickaxe3";/*則切換為pickaxe3*/
+                    console.log("pickaxe3");
+                } else if (pickaxeElement.classList.contains("pickaxe3")) { /*如果id傳回的參數為pickaxe3*/
+                    pickaxeElement.className = "pickaxe4";/*則切換為pickaxe4*/
+                    console.log("pickaxe4");
+                } else if (pickaxeElement.classList.contains("pickaxe4")) { /*如果id傳回的參數為pickaxe4*/
+                    pickaxeElement.className = "pickaxe5";/*則切換為pickaxe5*/
+                    console.log("pickaxe5");
+                } else if (pickaxeElement.classList.contains("pickaxe5")) { /*如果id傳回的參數為pickaxe5*/
+                    pickaxeElement.className = "pickaxe6";/*則切換為pickaxe6*/
+                    console.log("pickaxe6");
+                } else {
+                    pickaxeElement.className = "pickaxe1";/*結束迴圈並切換為pickaxe1*/
+                    console.log("pickaxe1");
+                }
+            }
+        </script>
+    </head>
+
+    <!--網站內容 -->
+    <body style="background-color: rgb(0, 0, 0);"><!--內容區域+背景顏色 -->
+        <div style="background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1302/starry_sky-Lakeside_scenery_HD_wallpapers_1366x768.jpg);background-size: cover;color: #FFFFFF;"><!--內容區塊1+背景顏色+文字顏色 -->
+
+            <div style="padding-top: 10px;padding-left: 5%;padding-right: 5%;"><!--內容區塊1-1+填充 -->
+                <div style="padding-right: 12%;float:right;background-color: #ffffff6c;width: 90px;height: 40px;">
+                </div>
+                <hr style="margin-top:60px;border-color: #ffa200"/>
+                <span style="float:right;padding-right: 30px;padding-top: 1px;padding-bottom: 1px;">
+                    <a href="https://www.google.com"><img class="big" src="assets/img/google.svg" style="padding-left: 10px;"></a>
+                    <a href="https://www.youtube.com"><img  class="big" src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png" style="padding-left: 10px;"></a>
+                    <a href="https://www.facebook.com"><img class="big" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" style="padding-left: 10px;"></a>
+                </span>
+                <img src="https://static.wikia.nocookie.net/minecraft/images/8/8f/EnchantedBookNew.gif/revision/latest?cb=20201031144837" style="height: 200px;"><!--內容圖示1 -->
+                <h1 style="padding-bottom: 1px;">資源站</h1><!--標題1 -->
+                <p style="padding-bottom: 1px;">本網站提供互聯網中常使用到的的熱門連結並分類。</p><!--說明1 -->
+            </div><!--內容區塊1-1結尾 -->
+            <div style="padding-bottom: 10px;"><!--內容區塊1-2+填充 -->
+            </div><!--內容區塊1-2結尾 -->
+            <div id="WRAPPER"><!--內容區塊1-3+加載css -->
+                <div id="BOX_A"><!--內容區塊1-3-1+加載css-->
+                    <div style="background-color: rgba(122, 122, 122, 0);"><!--內容區塊1-3-2+背景顏色-->
+                        <hr/><!--線條-->
+                        <div style="background-color: rgba(122, 122, 122, 0);color: #000000;padding-top: 10px;padding-bottom: 10px;"><!--內容區塊+背景顏色+填充上下-->
+                            <h3 style=" margin:0 auto; text-align:center;">社群連結</h3>
+                            <table style="float:right;padding-right: 2%"> 
+                                <tr>
+                                    <td>谷歌</td>
+                                </tr>
+                                <tr>
+                                    <td>油管</td>
+                                </tr>
+                                <tr>
+                                    <td>臉書</td>
+                                </tr>
+                                <tr>
+                                    <td>推特</td>
+                                </tr>
+                                <tr>
+                                    <td>即通</td>
+                                </tr>
+                            </table>
+                            <ul>
+                                <li><img src="assets/img/google.png"> <a href="https://www.google.com">Google</a></li>
+                                <li><img src="assets/img/youtube.png"> <a href="https://www.youtube.com">Youtube</a></li>
+                                <li><img src="assets/img/fb.png"> <a href="https://www.facebook.com">Facebook</a></li>
+                                <li><img src="assets/img/twitter.png"> <a href="https://twitter.com">Twitter</a></li>
+                                <li><img src="assets/img/messenger.png"> <a href="https://www.messenger.com">Messenger</a></li>
+                            </ul>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+                <div  id="BOX_B">
+                    <div style="background-color: rgba(122, 122, 122, 0);">
+                        <hr/>
+                        <div style="background-color: rgba(122, 122, 122, 0);color: #000000;padding-top: 10px;padding-bottom: 10px; height: 200px">
+                            <div style="width: auto;"><h3 style=" margin:0 auto; text-align:center;">工具連結</h3></div>
+                            <table style="float:right;padding-right: 2%;">
+                                <tr>
+                                    <td>Ai</td>
+                                </tr>
+                                <tr>
+                                    <td>翻譯</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                            <ul style="height: 40px">
+                                <li><img src="assets/img/ChatGPT_Logo_PNG30.png"><a href="https://chat.openai.com">chatgpt</a></li>
+                                <li><img src="assets/img/Google_Translate_logo.svg.png"><a href="https://translate.google.com.tw/">translate</a></li>
+                                <li><img src="assets/img/fb.png"><a href="https://www.facebook.com">Facebook</a></li>
+                                <li><img src="assets/img/twitter.png"><a href="https://twitter.com">Twitter</a></li>
+                                <li><img src="assets/img/messenger.png"><a href="https://www.messenger.com">Messenger</a></li>
+                            </ul>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+                <div  id="BOX_C">
+                    <div style="background-color: rgba(122, 122, 122, 0);">
+                        <hr/>
+                        <div style="background-color: rgba(122, 122, 122, 0);color: #000000;padding-top: 10px;padding-bottom: 10px;">
+                            <h3 style=" margin:0 auto; text-align:center;">娛樂連結</h3>
+                            <table style="float:right;padding-right: 2%">
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                            <ul>
+                                <li><img src="assets/img/google.png"> <a href="https://www.google.com">Google</a></li>
+                                <li><img src="assets/img/youtube.png"> <a href="https://www.youtube.com">Youtube</a></li>
+                                <li><img src="assets/img/fb.png"> <a href="https://www.facebook.com">Facebook</a></li>
+                                <li><img src="assets/img/twitter.png"> <a href="https://twitter.com">Twitter</a></li>
+                                <li><img src="assets/img/messenger.png"> <a href="https://www.messenger.com">Messenger</a></li>
+                            </ul>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+            </div><!--內容區塊3結尾 -->
+            <hr/>
+        </div><!--內容區塊1結尾 -->
+        <div style="background-color: rgba(0, 0, 0, 0.721);color: #FFFFFF;"><!--內容區塊2+背景顏色+文字顏色 -->
+            <video playsinline autoplay muted loop style="width: 100%;position: fixed;right: 10;object-fit: cover;bottom: 0;z-index: -100;height: 550px;">
+                <source  src="assets/video/osu! 2023.12.26 - 20.08.44.01.mp4" type="video/mp4">
+            </video>
+            <div style="padding: 50px;">
+                <img src="assets/img/skin.png" style="height: 300px;float:left;">
+                <div style="float:right;padding-bottom: 10px">
+                    <h1 style="padding-top: 10px;padding-left: 10px;" id="pickaxe" class="pickaxe1" onclick="changeg1()">點我!<h1>
+                    <h4 style="color: #0000001a;padding-right: 10px;">點擊上方圖片有變化喔</h4>
+                </div>
+                <h1>Hi 這是我的網站</h1>
+                <p style="color:rgba(255, 255, 255, 0.481)"><del>因為不知道打什麼所以就這樣好了</del></p>
+                <div style="background-image:url(assets/img/background-log.jpg);color: #000000;padding-top: 10px;padding-bottom: 10px;height: 100px;">
+                    <ul style="float:left";>
+                        <li id="oneself"><img src="assets/img/messenger.png"> <a href="https://www.Discord.com" id="oneself">Discord</a></li>
+                        <li id="oneself"><img src="assets/img/fb.png"> <a href="https://www.facebook.com" id="oneself">Facebook</a></li>
+                        <li id="oneself"><img src="assets/img/youtube.png"> <a href="https://www.youtube.com" id="oneself">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--內容區塊2結尾 -->
+    </body>
+    <footer style="background-color: #000000;padding: 20px; height: 100px;">
+        <div>
+            <span style="color:#ffffff57;">
+                <div style="float: left">
+                    <h1>1.0版本</h1>
+                </div>
+                <div style="float: right;text-align: right;">
+                    <p>此網站由<b>陳志忠</b>開發維護</p>
+                    <p>於<b>20231205</b>開發完畢</p>
+                </div>
+            </span>
+        </div>
+    </footer>
+    <!--網站內容結尾 -->
+</html>
